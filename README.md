@@ -4,9 +4,25 @@
   <img src="assets/gene_capsule_logo.png" alt="AI Gene Capsule" width="320" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/kamiimeteor/AI-Gene-Capsule/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/kamiimeteor/AI-Gene-Capsule?display_name=tag"></a>
+  <a href="https://github.com/kamiimeteor/AI-Gene-Capsule/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/kamiimeteor/AI-Gene-Capsule/total"></a>
+  <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%20arm64-111827">
+  <img alt="License" src="https://img.shields.io/badge/license-Proprietary-b91c1c">
+</p>
+
 **The local host for installable AI workflows.**
 
 AI Gene Capsule turns complex local automations into installable capsules with setup, permissions, receipts, and ongoing runtime. It is not another chat assistant — it is the host layer that makes AI integrations deployable local software.
+
+## Quick Links
+
+- [Download latest release](https://github.com/kamiimeteor/AI-Gene-Capsule/releases/latest)
+- [Changelog](CHANGELOG.md)
+- [Security policy](SECURITY.md)
+- [Privacy policy](PRIVACY.md)
+- [Contributing](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
 
 ## Download
 
@@ -24,6 +40,7 @@ AI Gene Capsule turns complex local automations into installable capsules with s
 
 ## System Requirements
 
+- macOS 14+ recommended
 - macOS on Apple Silicon (`arm64`)
 - Current public preview supports the **OpenClaw + Telegram** setup path only
 - A Telegram bot token from **@BotFather** is required for bridge setup
@@ -78,6 +95,19 @@ The product should feel like:
 
 Not like: open chat → type anything → hope the agent figures it out.
 
+## Product Flow
+
+![AI Gene Capsule product flow](assets/diagrams/concept-flow.svg)
+
+This public repo intentionally shows the product flow, not the internal implementation. The current desktop path is:
+
+1. Install the desktop app
+2. Check whether the machine is ready
+3. Install or verify OpenClaw
+4. Connect Telegram
+5. Run locally
+6. Review receipts and recover when needed
+
 ## Current Scope (v0.1.1)
 
 **Included:**
@@ -121,6 +151,12 @@ Future paid offerings are expected to sit above the local host:
 - Team features and shared operations
 - Cloud monitoring and audit trails
 - Commercial support and enterprise controls
+
+## Community & Support
+
+- [Issues](https://github.com/kamiimeteor/AI-Gene-Capsule/issues) for bugs, install problems, and feature requests
+- [Releases](https://github.com/kamiimeteor/AI-Gene-Capsule/releases) for new desktop builds
+- [Security policy](SECURITY.md) for responsible vulnerability reporting
 
 ## Feedback & Issues
 

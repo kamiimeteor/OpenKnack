@@ -1,0 +1,57 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Gene Capsule product flow</title>
+  <desc id="desc">A high-level product flow showing install, environment check, OpenClaw install, Telegram connect, local run, and receipts and repair.</desc>
+  <rect width="1280" height="720" rx="36" fill="#08111F"/>
+  <rect x="32" y="32" width="1216" height="656" rx="28" fill="url(#bg)"/>
+  <text x="92" y="112" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="44" font-weight="700">AI Gene Capsule</text>
+  <text x="92" y="152" fill="#93C5FD" font-family="Arial, sans-serif" font-size="22">Public product flow for the current OpenClaw + Telegram release path</text>
+
+  <g>
+    <rect x="92" y="230" width="170" height="112" rx="24" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="177" y="274" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Install</text>
+    <text x="177" y="308" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="17">Download and open</text>
+
+    <rect x="306" y="230" width="170" height="112" rx="24" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="391" y="274" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Check</text>
+    <text x="391" y="308" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="17">Environment readiness</text>
+
+    <rect x="520" y="230" width="170" height="112" rx="24" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="605" y="274" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Install</text>
+    <text x="605" y="308" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="17">OpenClaw local runtime</text>
+
+    <rect x="734" y="230" width="170" height="112" rx="24" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="819" y="274" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Connect</text>
+    <text x="819" y="308" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="17">Telegram bridge</text>
+
+    <rect x="948" y="230" width="170" height="112" rx="24" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <text x="1033" y="274" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Run</text>
+    <text x="1033" y="308" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="17">Local workflow host</text>
+  </g>
+
+  <g stroke="#38BDF8" stroke-width="5" stroke-linecap="round">
+    <path d="M262 286H306"/>
+    <path d="M476 286H520"/>
+    <path d="M690 286H734"/>
+    <path d="M904 286H948"/>
+  </g>
+
+  <g>
+    <rect x="272" y="452" width="736" height="148" rx="28" fill="#0F172A" stroke="#38BDF8" stroke-width="2.5"/>
+    <text x="640" y="502" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="30" font-weight="700">Receipts and Repair</text>
+    <text x="640" y="544" text-anchor="middle" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="20">Every major step produces local diagnostics and receipt records.</text>
+    <text x="640" y="576" text-anchor="middle" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="20">The product flow is designed around install, connect, operate, monitor, and recover.</text>
+  </g>
+
+  <g stroke="#38BDF8" stroke-width="4" stroke-linecap="round">
+    <path d="M1033 342V420"/>
+    <path d="M1033 420H640"/>
+    <path d="M640 420V452"/>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="64" y1="64" x2="1216" y2="656" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0A1B2E"/>
+    </linearGradient>
+  </defs>
+</svg>
