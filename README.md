@@ -22,6 +22,30 @@ AI Gene Capsule turns complex local automations into installable capsules with s
 2. Open the `.dmg` and drag **AI Gene Capsule** to your Applications folder
 3. Launch the app — if macOS blocks it, go to **System Settings > Privacy & Security** and click **Open Anyway**
 
+## System Requirements
+
+- macOS on Apple Silicon (`arm64`)
+- Current public preview supports the **OpenClaw + Telegram** setup path only
+- A Telegram bot token from **@BotFather** is required for bridge setup
+- Before running Telegram setup, open your bot in Telegram and tap **Start** once
+- Internet access is required during setup for Telegram API validation and, in some install paths, OpenClaw installation
+
+## Verify Download
+
+For `AI Gene Capsule-0.1.1-arm64.dmg`:
+
+```text
+134a3bfe263532f588a4fabe4a7cdac9a0a25032c238f171e6104a3afa3a9d99
+```
+
+On macOS:
+
+```bash
+shasum -a 256 "AI Gene Capsule-0.1.1-arm64.dmg"
+```
+
+The output should match the checksum published in [SHA256SUMS.txt](SHA256SUMS.txt).
+
 ## What It Does
 
 AI Gene Capsule v0.1.1 provides the first end-to-end public workflow:
@@ -68,6 +92,17 @@ Not like: open chat → type anything → hope the agent figures it out.
 - Notarized macOS distribution
 - Intel macOS, Windows, and Linux builds
 
+## Troubleshooting
+
+- **macOS says the app cannot be opened**
+  Go to **System Settings > Privacy & Security** and click **Open Anyway**. `v0.1.1` is a pre-release and is not notarized yet.
+- **Telegram connect does not send the first message**
+  Open your bot in Telegram, tap **Start**, then rerun **Connect Telegram**.
+- **The bot token is rejected**
+  Make sure you pasted the full BotFather token, including the numeric prefix and the colon.
+- **This Mac is Intel, not Apple Silicon**
+  The current public build is `arm64` only. Intel macOS support is not published yet.
+
 ## Roadmap
 
 - [ ] Discord bridge capsule
@@ -90,6 +125,8 @@ Future paid offerings are expected to sit above the local host:
 ## Feedback & Issues
 
 Found a bug or have a feature request? Please [open an issue](https://github.com/kamiimeteor/AI-Gene-Capsule/issues).
+
+For privacy details, see [PRIVACY.md](PRIVACY.md).
 
 ## License
 
