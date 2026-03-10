@@ -145,15 +145,7 @@ What may become paid in the future sits above the local app:
 - Internet access during setup
 - For Telegram bridge: a bot token from [@BotFather](https://t.me/BotFather)
 
-## Verify Your Download
-
-```bash
-shasum -a 256 "AI Gene Capsule-0.1.1-arm64.dmg"
-```
-
-Expected: `134a3bfe263532f588a4fabe4a7cdac9a0a25032c238f171e6104a3afa3a9d99`
-
-Full checksums: [SHA256SUMS.txt](SHA256SUMS.txt)
+Advanced users can verify the download checksum with [SHA256SUMS.txt](SHA256SUMS.txt).
 
 ## Troubleshooting
 
