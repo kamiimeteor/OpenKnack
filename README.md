@@ -54,7 +54,7 @@ The whole process: answer a few questions, wait 10 minutes, done.
 
 | Platform | Architecture | Download |
 |----------|-------------|----------|
-| macOS | Apple Silicon (arm64) | [**Download v0.1.1**](https://github.com/kamiimeteor/AI-Gene-Capsule/releases/latest) |
+| macOS | Apple Silicon (arm64) | [**Download v1.0.0**](https://github.com/kamiimeteor/AI-Gene-Capsule/releases/latest) |
 
 > Intel macOS, Windows, and Linux coming soon.
 
@@ -62,9 +62,10 @@ The whole process: answer a few questions, wait 10 minutes, done.
 
 1. Download the `.dmg` from [Releases](https://github.com/kamiimeteor/AI-Gene-Capsule/releases)
 2. Open it and drag **AI Gene Capsule** to Applications
-3. Launch — if macOS blocks it, go to **System Settings > Privacy & Security > Open Anyway**
+3. Launch **AI Gene Capsule** from Applications
+4. If macOS shows a standard first-launch confirmation, choose **Open**
 
-## What's Available Now (v0.1.1)
+## What's Available Now (v1.0.0)
 
 The first capsule: **OpenClaw + Telegram**
 
@@ -180,7 +181,7 @@ Advanced users can verify the download checksum with [SHA256SUMS.txt](SHA256SUMS
 
 | Problem | Fix |
 |---------|-----|
-| macOS says the app can't be opened | **System Settings > Privacy & Security > Open Anyway** (v0.1.1 is not notarized yet) |
+| macOS shows a first-launch confirmation | This is expected for a downloaded app. Choose **Open** to continue |
 | Telegram doesn't send the first message | Open your bot in Telegram, tap **Start**, then retry |
 | Bot token rejected | Make sure you pasted the full token including the number prefix and colon |
 | Intel Mac, not Apple Silicon | arm64 only for now — Intel build coming soon |
