@@ -19,10 +19,6 @@
 
 ---
 
-<p align="center">
-  <img src="assets/demo-quickstart-zh.gif" alt="Quick Start 演示" width="720" />
-</p>
-
 你知道自己需要什么工具，但不想花几个小时看教程、敲命令行、调配置文件。
 
 **OpenKnack** 把多工具联合配置变成一个引导式流程。它检查你的系统、安装缺失的依赖、把所有东西连起来 — 全程不需要写一行代码。
