@@ -74,45 +74,7 @@ The first capsule: **OpenClaw + Telegram**
 
 ### Screenshots
 
-<p align="center">
-  <img src="assets/screenshots/en/01-home.png" alt="Home" width="700" />
-</p>
-<p align="center"><i>Pick Quick Start or Manual Mode</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/02-check-system.png" alt="Check system" width="700" />
-</p>
-<p align="center"><i>Step 1 — Check your system for prerequisites</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/03-check-results.png" alt="Check results" width="700" />
-</p>
-<p align="center"><i>Environment scan results — ready to proceed</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/04-install-openclaw.png" alt="Install OpenClaw" width="700" />
-</p>
-<p align="center"><i>Step 2 — Review install plan before applying</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/05-install-results.png" alt="Install results" width="700" />
-</p>
-<p align="center"><i>OpenClaw installed successfully</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/06-connect-telegram.png" alt="Connect Telegram" width="700" />
-</p>
-<p align="center"><i>Step 3 — Paste your bot token to connect Telegram</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/07-telegram-token.png" alt="Token entered" width="700" />
-</p>
-<p align="center"><i>Token entered, ready to connect</i></p>
-
-<p align="center">
-  <img src="assets/screenshots/en/08-setup-complete.png" alt="Setup complete" width="700" />
-</p>
-<p align="center"><i>All done — everything verified with full receipts</i></p>
+<!-- Screenshots will be updated with new OpenKnack branding -->
 
 ## How It Works
 
