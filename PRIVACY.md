@@ -2,7 +2,7 @@
 
 Last updated: March 10, 2026
 
-AI Gene Capsule is a local-first desktop application.
+OpenKnack is a local-first desktop application.
 
 ## What the app stores locally
 
@@ -36,4 +36,4 @@ The current release does not advertise a hosted dashboard, cloud sync service, o
 
 For privacy questions or requests, open an issue in this repository:
 
-https://github.com/kamiimeteor/AI-Gene-Capsule/issues
+https://github.com/kamiimeteor/OpenKnack/issues

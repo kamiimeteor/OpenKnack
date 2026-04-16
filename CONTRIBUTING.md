@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is a **public distribution repo** for AI Gene Capsule releases.
+This repository is a **public distribution repo** for OpenKnack releases.
 
 ## What this repo is for
 
@@ -33,5 +33,5 @@ Source-code PRs are out of scope for this repository because this is not the dev
 
 - Confirm the app version you are using
 - Check the [README](README.md) troubleshooting section
-- Check the current [release notes](https://github.com/kamiimeteor/AI-Gene-Capsule/releases)
+- Check the current [release notes](https://github.com/kamiimeteor/OpenKnack/releases)
 - Avoid posting secrets such as Telegram bot tokens

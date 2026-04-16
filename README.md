@@ -1,14 +1,14 @@
-# AI Gene Capsule
+# OpenKnack
 
 <p align="center">
-  <img src="assets/gene_capsule_logo.png" alt="AI Gene Capsule" width="320" />
+  <img src="assets/gene_capsule_logo.png" alt="OpenKnack" width="320" />
 </p>
 
 <p align="center"><b>Stop configuring. Start using.</b></p>
 
 <p align="center">
-  <a href="https://github.com/kamiimeteor/AI-Gene-Capsule/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/kamiimeteor/AI-Gene-Capsule?display_name=tag"></a>
-  <a href="https://github.com/kamiimeteor/AI-Gene-Capsule/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/kamiimeteor/AI-Gene-Capsule/total"></a>
+  <a href="https://github.com/kamiimeteor/OpenKnack/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/kamiimeteor/OpenKnack?display_name=tag"></a>
+  <a href="https://github.com/kamiimeteor/OpenKnack/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/kamiimeteor/OpenKnack/total"></a>
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%20arm64-111827">
   <img alt="License" src="https://img.shields.io/badge/license-Proprietary-b91c1c">
 </p>
@@ -25,7 +25,7 @@
 
 You know what tools you need. You just don't want to spend hours reading tutorials, running terminal commands, and debugging config files to make them work together.
 
-**AI Gene Capsule** turns multi-tool setup into a guided flow. It checks your system, installs what's missing, connects everything, and gives you a working result — no coding required.
+**OpenKnack** turns multi-tool setup into a guided flow. It checks your system, installs what's missing, connects everything, and gives you a working result — no coding required.
 
 ## The Problem
 
@@ -40,7 +40,7 @@ And that's if everything goes right the first time.
 
 ## The Solution
 
-AI Gene Capsule packages the entire setup process into **capsules** — guided workflows that:
+OpenKnack packages the entire setup process into **capsules** — guided workflows that:
 
 1. **Check** your system for what's already installed and what's missing
 2. **Install** dependencies automatically, adapted to your specific machine
@@ -54,15 +54,15 @@ The whole process: answer a few questions, wait 10 minutes, done.
 
 | Platform | Architecture | Download |
 |----------|-------------|----------|
-| macOS | Apple Silicon (arm64) | [**Download v1.0.0**](https://github.com/kamiimeteor/AI-Gene-Capsule/releases/latest) |
+| macOS | Apple Silicon (arm64) | [**Download v1.0.0**](https://github.com/kamiimeteor/OpenKnack/releases/latest) |
 
 > Intel macOS, Windows, and Linux coming soon.
 
 ### Install
 
-1. Download the `.dmg` from [Releases](https://github.com/kamiimeteor/AI-Gene-Capsule/releases)
-2. Open it and drag **AI Gene Capsule** to Applications
-3. Launch **AI Gene Capsule** from Applications
+1. Download the `.dmg` from [Releases](https://github.com/kamiimeteor/OpenKnack/releases)
+2. Open it and drag **OpenKnack** to Applications
+3. Launch **OpenKnack** from Applications
 4. If macOS shows a standard first-launch confirmation, choose **Open**
 
 ## What's Available Now (v1.0.0)
@@ -122,7 +122,7 @@ The first capsule: **OpenClaw + Telegram**
 
 ```
 ┌─────────────────────────────────────────────────┐
-│                 AI Gene Capsule                  │
+│                    OpenKnack                     │
 │                                                  │
 │   ┌──────────┐  ┌──────────┐  ┌──────────┐     │
 │   │  Check   │→ │ Install  │→ │ Connect  │     │
@@ -196,7 +196,7 @@ Advanced users can verify the download checksum with [SHA256SUMS.txt](SHA256SUMS
 
 ## Feedback
 
-Found a bug? Need a new capsule? [Open an issue](https://github.com/kamiimeteor/AI-Gene-Capsule/issues).
+Found a bug? Need a new capsule? [Open an issue](https://github.com/kamiimeteor/OpenKnack/issues).
 
 ## License
 
